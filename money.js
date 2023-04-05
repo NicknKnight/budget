@@ -1,5 +1,4 @@
-function sum(x,y){
-    x + y;
-    return x + y;
-}
-console.log(sum(3,5))
+import {product} from './math'
+
+const result = product(3,5)
+console.log(result)
